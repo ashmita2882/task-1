@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int years,days,weeks,d;
+    cout<<"enter the no of days :";
+    cin>>d;
+    years=d/365;
+    weeks=d/7;
+    days=d%365;
+    days=d%7;
+    cout<<"\nweeks= "<<weeks<<"\nyears= "<<years<<"\ndays="<<days;
+    return 0;
+}
+   
